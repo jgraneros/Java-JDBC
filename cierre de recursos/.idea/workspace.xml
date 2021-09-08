@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d689fe8f-b731-425b-b248-27321a6ac3db" name="Changes" comment="" />
+    <list default="true" id="d689fe8f-b731-425b-b248-27321a6ac3db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +85,7 @@
       <recent name="D:\Documentos\Arquitectura Java\JDBC\Java-JDBC\insercion\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.D:/Documentos/Arquitectura Java/JDBC/Java-JDBC/cierre de recursos">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="insercion" />
@@ -93,28 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Documentos/Arquitectura Java/JDBC/Java-JDBC/cierre de recursos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.D:/Documentos/Arquitectura Java/JDBC/Java-JDBC/cierre de recursos" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -140,6 +123,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
