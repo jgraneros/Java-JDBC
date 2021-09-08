@@ -1,29 +1,43 @@
 package com.company;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Main {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
 
+        Statement sentence = null;
+        Connection connection = null;
+        try {
 
-        String cadenaConexion = "jdbc:mysql://localhost:3306/curso";
-        try (Connection connection = DriverManager.getConnection(cadenaConexion, "root", "<YOUR_PASSWORD>");
-             Statement sentence = connection.createStatement();
-             ResultSet rs = sentence.executeQuery("select * from persona");) {
-
-                while(rs.next()){
-                    System.out.println(rs.getString("nombre"));
-                    System.out.println(rs.getString("apellidos"));
-                    System.out.println(rs.getString("edad"));
-
-                }
-
-
-
-
-        }catch (SQLException e){
+            Class.forName("com.mysql.jdbc.Driver");
+            String cadenaConexion = "jdbc:mysql://localhost:3306/curso";
+            connection = DriverManager.getConnection(cadenaConexion, "root", "<YOUR_PASSWORD>");
+            sentence = connection.createStatement();
+            sentence.executeUpdate("insert into persona (nombre, apellidos, edad) values ('pepe', 'perez', 20)");
+            sentence.close();
+            connection.close();
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
+        }finally {
+            try {
+                if(sentence != null){
+                    sentence.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+            try {
+                if(connection != null) {
+                    connection.close();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
