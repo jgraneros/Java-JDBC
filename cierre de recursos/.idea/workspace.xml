@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d689fe8f-b731-425b-b248-27321a6ac3db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/insercion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../resultset/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d689fe8f-b731-425b-b248-27321a6ac3db" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +72,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resultset" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consulta parametrizada" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
